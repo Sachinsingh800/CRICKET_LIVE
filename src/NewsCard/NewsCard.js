@@ -17,7 +17,7 @@ function NewsCard() {
     <>
     <input className={style.searchbox} onChange={(e)=>setInput(e.target.value)} value={input}  placeholder="Search"/>
 
-    {news?.filter((item)=>{
+    {news.filter((item)=>{
 
       return  item?.description?.toLowerCase().includes(input.toLowerCase())
 
