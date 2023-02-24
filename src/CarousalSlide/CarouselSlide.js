@@ -15,12 +15,12 @@ export default function App() {
     setCurrent(current === 0 ? length - 1 : current - 1);
   }
   
-  useEffect(() => {
-    const interval = setInterval(() => {
-      nextSlide();
-    }, 3000);
-    return () => clearInterval(interval);
-  });
+  // useEffect(() => {
+  //   const interval = setInterval(() => {
+  //     nextSlide();
+  //   }, 3000);
+  //   return () => clearInterval(interval);
+  // });
 
   return (
     <>
