@@ -8,7 +8,7 @@ function RigthSection() {
   return (
     <>
    <div className={style.container}>  
-   <NewsCard />
+   {/* <NewsCard /> */}
    </div>
    </>
  
