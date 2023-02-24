@@ -2,7 +2,7 @@ import React from 'react';
 import style from './NavBar.module.css'
 import Image from './logo.png'
 import { Link } from 'react-router-dom';
-// helo
+
 
 
 function NavBar() {

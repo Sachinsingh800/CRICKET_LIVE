@@ -19,7 +19,7 @@ function NewsCard() {
 
     {news.filter((item)=>{
 
-      return  item?.description?.toLowerCase().includes(input.toLowerCase())
+      return  item.description?.toLowerCase().includes(input.toLowerCase())
 
     })
     
