@@ -3,12 +3,44 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import {
+    createBrowserRouter,
+    RouterProvider,
+  } from "react-router-dom";
+import Card from './Card/Card';
+import MatchPage from './MatchPage/MatchPage';
+import { RecoilRoot } from 'recoil';
+import AboutPage from './Podcast/Podcast';
+import Blog from './Blog/Blog';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+const router = createBrowserRouter([
+    {
+      element: <App />,
+      path: '/',
+    },
+    {
+      element: <Card />,
+      path: '/Card',
+    },
+    {
+      element: <MatchPage />,
+      path: '/MatchPage/:id',
+    },
+    {
+      element: <AboutPage />,
+      path: '/Podcast',
+    },
+    {
+      element: <Blog />,
+      path: '/Blog',
+    },
+
+  ]);
 root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
+    <RecoilRoot>
+<RouterProvider router={router} />
+</RecoilRoot>
 );
 
 // If you want to start measuring performance in your app, pass a function

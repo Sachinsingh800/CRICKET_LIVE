@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+.container{
+    /* background-color: rgb(76, 79, 79); */
+    background-size: cover;
+    background-image: url("https://www.teahub.io/photos/full/27-275471_cricket-wallpaper-hd-wallpapers-download-free-images-cricket.jpg");
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+ 
+}
+.lefttSection{
+   padding: 1rem 1rem 1rem 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3.7rem;
+    scroll-behavior: smooth;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    /* border: 1px red solid; */
+}
+.rigthSection{
+    border: 1px rgb(139, 147, 141) solid;
+ grid-column: 2/-1;
+ margin-top: 3.7rem;
+ scroll-behavior: smooth;
+ overflow-y: scroll;
+ overflow-x: hidden;
+ /* z-index: -1; */
+     
+}
+.navBar{
+    position: fixed;
+    width: 100vw;
+    z-index: 9000;
+}
+.lefttSection::-webkit-scrollbar{
+    display:none;
+}
+.rigthSection::-webkit-scrollbar{
+    display:none;
+}
+h1{
+    color: white;
+}
+.header{
+    animation: rotateHue 2s alternate infinite;
+    outline: none;
+    color: red;
+    font-weight: 700;
+}
+@keyframes rotateHue {
+    to{
+       filter: hue-rotate(1turn)
+    }
+  }
+  

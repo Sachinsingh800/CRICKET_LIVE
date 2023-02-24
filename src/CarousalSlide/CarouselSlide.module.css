@@ -1,0 +1,55 @@
+.main {
+  display: flex;
+  width: 98.7vw;
+  overflow: auto;
+  height: 25rem;
+  align-items: center;
+  justify-content: center;
+  border-radius: 2px;
+  /* border: 2px red solid; */
+}
+.main::-webkit-scrollbar {
+  display: none;
+}
+
+.img {
+  height: 24.9rem;
+  width: 100vw;
+}
+.btn {
+  background-color: transparent;
+  border: none;
+  font-size: 50px;
+  color: white;
+  opacity: 0.3;
+}
+
+.btnBox {
+  /* border: 2px green solid; */
+  display: flex;
+  justify-content: space-between;
+  margin: 3rem;
+  margin-top: -14rem;
+  opacity: 0.8;
+}
+.btn:hover {
+  opacity: 0.8;
+}
+.quotes {
+  /* border: 1px red solid; */
+  width: 50rem;
+  height: 20.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 90;
+  position: absolute;
+  /* background-color: red; */
+  font-size: 40px;
+  color: white;
+}
+.box{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}

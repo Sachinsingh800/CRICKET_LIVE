@@ -1,0 +1,27 @@
+.logo{
+    height: 2rem;
+    width: 2rem;
+}
+.link{
+    text-decoration: none;
+    color: black;
+    font-weight: 900;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+}
+.link:active {
+    color: rgb(255, 0, 0);
+  }
+  .main{
+    display: flex;
+    align-items: center;
+    /* border: 1px red solid; */
+    padding: 1rem;
+    justify-content: space-evenly;
+    background-color: white;
+    /* background-color: transparent; */
+    opacity: 0.9;
+    z-index: 900;
+
+  }
