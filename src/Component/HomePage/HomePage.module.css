@@ -69,8 +69,3 @@ h1{
         font-size: 10px;
     }
  }
- @media (max-width:495px){
-    html{
-        font-size: 5px;
-    }
- }
