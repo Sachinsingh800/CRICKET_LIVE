@@ -25,8 +25,9 @@ function NewsCard() {
       />
 
       <div className={style.main}>
-        {news
-          .filter((item) => {
+        { news?.length>0 && 
+         news
+          ?.filter((item) => {
             return item.title.toLowerCase().includes(input.toLowerCase());
           })
           .map((item, index) => (
