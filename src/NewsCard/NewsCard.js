@@ -24,7 +24,7 @@ function NewsCard() {
       return  item.description?.toLowerCase().includes(input.toLowerCase())
 
     }) */}
-
+<div className={style.main}>
   {  news.map((item,index)=>
          <div key={index} className={style.container}>
             <h6>{item?.author}</h6>
@@ -33,6 +33,7 @@ function NewsCard() {
              <h6>{item.publishedAt}</h6>
           </div>
     )}
+    </div>
     </>
   )
 }

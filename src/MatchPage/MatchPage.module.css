@@ -66,11 +66,7 @@
     width: 100vw;
 }
 .rigthSection{
-    border: 1px rgb(139, 147, 141) solid;
     grid-column: 2/-1;
-    margin-top: 3.7rem;
-    scroll-behavior: smooth;
-    overflow-y: scroll;
-    overflow-x: hidden;
-    height: 90vh;
+   /* border: 3px red solid;   */
+   height: 100vh;
 }
