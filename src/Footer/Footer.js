@@ -13,8 +13,8 @@ export default function Footer() {
     <>
     <div className={style.main}>
     <div className={style.FisrtDiv}>
+    <img className={style.logo} src={Image} />
       <h4>
-      <img className={style.logo} src={Image} />
       Cricket Live
       </h4>
       </div>    
