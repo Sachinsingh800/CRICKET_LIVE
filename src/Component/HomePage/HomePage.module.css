@@ -46,6 +46,7 @@ h1{
     color: red;
     font-weight: 700;
 }
+
 @keyframes rotateHue {
     to{
        filter: hue-rotate(1turn)

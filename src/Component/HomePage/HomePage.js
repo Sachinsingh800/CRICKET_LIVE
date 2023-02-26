@@ -23,7 +23,7 @@ function HomePage() {
     </div>
     
     </div>
-      <div >
+      <div  className={style.footer}>
       <Footer />
       </div>
     </>

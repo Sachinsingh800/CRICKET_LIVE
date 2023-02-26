@@ -18,14 +18,16 @@ function NewsCard() {
   return (
     <>
     <input className={style.searchbox} onChange={(e)=>setInput(e.target.value)} value={input}  placeholder="Search"/>
-{/* 
+
+<div className={style.main}>
+
+  
     {news.filter((item)=>{
 
-      return  item.description?.toLowerCase().includes(input.toLowerCase())
+      return  item.title.toLowerCase().includes(input.toLowerCase())
 
-    }) */}
-<div className={style.main}>
-  {  news.map((item,index)=>
+    })
+           .map((item,index)=>
          <div key={index} className={style.container}>
             <h6>{item?.author}</h6>
             <img className={style.img} src={item.urlToImage} />
