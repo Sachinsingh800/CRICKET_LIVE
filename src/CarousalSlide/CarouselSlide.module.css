@@ -1,6 +1,6 @@
 .main {
   display: flex;
-  width: 98.7vw;
+  width: 100vw;
   overflow: auto;
   height: 25rem;
   align-items: center;
@@ -52,4 +52,12 @@
    display: flex;
    align-items: center;
    justify-content: center;
+}
+@media (max-width:495px){
+  html{
+      font-size: 5px;
+  }
+  .quotes{
+    font-size: 10px;
+  }
 }

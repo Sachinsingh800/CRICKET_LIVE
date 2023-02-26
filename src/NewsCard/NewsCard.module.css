@@ -40,7 +40,7 @@ h6{
 }
 .main{
     /* border: 2px red solid; */
-    height: 78vh;
+    height: 86vh;
     scroll-behavior: smooth;
     overflow-y: scroll;
     overflow-x: hidden;

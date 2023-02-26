@@ -70,3 +70,24 @@
    /* border: 3px red solid;   */
    height: 100vh;
 }
+@media (max-width:1255px){
+    .rigthSection{
+        display: none;
+    }
+    .body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+ }
+ @media (max-width:765px){
+    html{
+        font-size: 10px;
+    }
+ }
+ @media (max-width:495px){
+    html{
+        font-size: 5px;
+    }
+ }
