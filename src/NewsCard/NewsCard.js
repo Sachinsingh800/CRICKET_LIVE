@@ -6,7 +6,7 @@ import { useRecoilState } from "recoil";
 function NewsCard() {
   const [input, setInput] = useState("");
   const [news, setNews] = useRecoilState(searchData);
- 
+//  console.log(news)
 
 
   useEffect(() => {
@@ -14,13 +14,13 @@ function NewsCard() {
       method: 'GET',
       headers: {
         'X-RapidAPI-Key': '5854509ae6msh4cf696e59631ad3p1669e1jsn997f958fe26d',
-        'X-RapidAPI-Host': 'contextualwebsearch-websearch-v1.p.rapidapi.com'
+        'X-RapidAPI-Host': 'cricbuzz-cricket.p.rapidapi.com'
       }
     };
     
-    fetch('https://contextualwebsearch-websearch-v1.p.rapidapi.com/api/search/NewsSearchAPI?q=taylor%20swift&pageNumber=1&pageSize=10&autoCorrect=true&fromPublishedDate=null&toPublishedDate=null', options)
+    fetch('https://cricbuzz-cricket.p.rapidapi.com/news/v1/index', options)
       .then(response => response.json())
-      .then(response => setNews(response.value))
+      .then(response => setNews(response.storyList))
       .catch(err => console.error(err));
    
   }, []);
@@ -39,14 +39,14 @@ function NewsCard() {
         { news?.length>0 && 
          news
           ?.filter((item) => {
-            return item.description.toLowerCase().includes(input.toLowerCase());
+            return item?.story?.hline?.toLowerCase().includes(input.toLowerCase());
           })
           .map((item, index) => (
             <div key={index} className={style.container}>
-              <h6>{item?.provider?.name}</h6>
-              <img className={style.img} src={item.image.url} />
-              <h5>{item.description}</h5>
-              <h6>{item.datePublished}</h6>
+              <h6>{item?.story.source}</h6>
+              {/* <img className={style.img} src={item.image.url} /> */}
+              <h5>{item.story.hline}</h5>
+              <h6>{item.story.pubTime}</h6>
             </div>
           ))}
       </div>
