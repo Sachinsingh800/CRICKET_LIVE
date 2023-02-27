@@ -81,6 +81,8 @@ h6{
 @media (max-width:1255px){
     .container{
         width: 65rem;
+        /* border: 1px red solid; */
+        margin-top: 6rem;
     }
     .main{
         width: 66rem;
