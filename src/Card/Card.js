@@ -29,9 +29,9 @@ function Card() {
       
   return (
     <>
-      {data.map((item,index)=>
+      {data.map((item,i)=>
    
-        <div key={index} className={style.Card}>
+        <div key={i} className={style.Card}>
            <h3>Match ({item?.matchType})</h3>
       <h6 className={style.date}>({item?.date})</h6>
       <div className={style.innerCard}>

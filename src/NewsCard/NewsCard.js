@@ -23,8 +23,8 @@ function NewsCard() {
             ?.filter((item) => {
               return item?.title.toLowerCase().includes(input.toLowerCase());
             })
-            .map((item, index) => (
-              <div key={index} className={style.container}>
+            .map((item, i) => (
+              <div key={i} className={style.container}>
                 <h6>{item?.author}</h6>
                 <img className={style.img} src={item.image} />
                 <div className={style.title}>

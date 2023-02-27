@@ -26,9 +26,9 @@ export default function App() {
     <>
 
       <div className={style.main}>
-        {Carsouel.map((item, index) => (
+        {Carsouel.map((item, i) => (
           <>
-            <div key={index} className={style.box}>
+            <div key={i} className={style.box}>
               {index === current && <img className={style.img} src={item.img} />}
               {index === current && <div className={style.quotes}><h5>{item.quotes}<h6>{item.Authors}</h6></h5> </div>}
             </div>

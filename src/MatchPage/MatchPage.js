@@ -22,9 +22,9 @@ function MatchPage() {
     <>
     <div className={style.NavBar}><NavBar/></div>
     <div className={style.body}>
-    {data.map((item,index)=>
+    {data.map((item,i)=>
    
-   <div key={index} className={style.Card}>
+   <div key={i} className={style.Card}>
      <h1 className={style.header}>Welcome to Cricket Live</h1>
  <h3>Match ({item.matchType})</h3>
  <div className={style.innerCard}>

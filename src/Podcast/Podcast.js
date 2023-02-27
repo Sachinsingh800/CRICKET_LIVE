@@ -18,8 +18,8 @@ function Podcast() {
       <h1 className={style.header}>Podcast</h1>
 
       <div className={style.PodcastBox}>
-        {PodcastData.map((item, index) => (
-          <div key={index} className={style.podcast}>
+        {PodcastData.map((item, i) => (
+          <div key={i} className={style.podcast}>
             <iframe
               width="300"
               height="230"
