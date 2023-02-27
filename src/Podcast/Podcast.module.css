@@ -51,6 +51,7 @@
         align-items: center;
         margin-bottom: 3rem;
         margin-left: 0rem;
+        row-gap: 4rem;
         /* border: 4px red solid; */
     }
     .container{
