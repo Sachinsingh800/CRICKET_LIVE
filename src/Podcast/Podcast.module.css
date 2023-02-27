@@ -45,11 +45,10 @@
 }
 @media (max-width:412px){
     .PodcastBox{
-        /* padding: 1rem 0rem 0rem 6rem; */
         width: 100vw;
         margin-bottom: 3rem;
-        /* border: 1px red solid; */
         margin-left: 0rem;
+        padding-left: 1rem;
     }
     .container{
         width: 100vw;
