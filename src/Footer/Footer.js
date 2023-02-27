@@ -21,39 +21,39 @@ export default function Footer() {
 <div className={style.icon}>
 
 <h4>Mobile  and Apps</h4>
-  <Link className={style.link} to="https://www.facebook.com/"><AiOutlineGlobal/><spna className={style.name} >Cricket.com</spna> </Link>
+  <Link className={style.link} to="https://www.facebook.com/"><AiOutlineGlobal/><span className={style.name} >Cricket.com</span> </Link>
 
 
-<Link className={style.link}  to="https://www.instagram.com/"><AiFillAndroid/><spna className={style.name} >instagram</spna></Link>
+<Link className={style.link}  to="https://www.instagram.com/"><AiFillAndroid/><span className={style.name} >instagram</span></Link>
 
-<Link className={style.link}  to="https://www.twitter.com/"><AiFillApple/><spna className={style.name} >twitter</spna></Link>
+<Link className={style.link}  to="https://www.twitter.com/"><AiFillApple/><span className={style.name} >twitter</span></Link>
 
 </div> 
 
 <div className={style.icon}>
 
 <h4>Follows us On</h4>
-  <Link className={style.link} to="https://www.facebook.com/"><BsFacebook/><spna className={style.name} >facebook</spna> </Link>
+  <Link className={style.link} to="https://www.facebook.com/"><BsFacebook/><span className={style.name} >facebook</span> </Link>
 
 
-<Link className={style.link}  to="https://www.instagram.com/"><BsInstagram/><spna className={style.name} >instagram</spna></Link>
+<Link className={style.link}  to="https://www.instagram.com/"><BsInstagram/><span className={style.name} >instagram</span></Link>
 
-<Link className={style.link}  to="https://www.twitter.com/"><AiFillTwitterCircle/><spna className={style.name} >twitter</spna></Link>
+<Link className={style.link}  to="https://www.twitter.com/"><AiFillTwitterCircle/><span className={style.name} >twitter</span></Link>
 
-<Link className={style.link}  to="https://www.youtube.com/"><AiFillYoutube/><spna  className={style.name} >youtube</spna></Link>
+<Link className={style.link}  to="https://www.youtube.com/"><AiFillYoutube/><span  className={style.name} >youtube</span></Link>
 </div> 
 
 <div className={style.icon}>
 
 <h4>Company</h4>
- <spna className={style.name} >Careers</spna> 
+ <span className={style.name} >Careers</span> 
 
 
-<spna className={style.name} >Advertise</spna>
+<span className={style.name} >Advertise</span>
 
-<spna className={style.name} >Privacy Policy</spna>
+<span className={style.name} >Privacy Policy</span>
 
-<spna  className={style.name} >Cricket Live Tv Ads</spna>
+<span  className={style.name} >Cricket Live Tv Ads</span>
 </div> 
    
     </div>
