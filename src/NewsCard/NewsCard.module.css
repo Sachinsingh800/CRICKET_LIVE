@@ -59,6 +59,7 @@ h6{
 @media (max-width:412px){
     .container{
         width: 65rem;
+        box-shadow: 0px 0px 4px 2px;
     }
     .main{
         width: 66rem;
