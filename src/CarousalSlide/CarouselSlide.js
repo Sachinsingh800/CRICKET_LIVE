@@ -15,20 +15,20 @@ export default function App() {
     setCurrent(current === 0 ? length - 1 : current - 1);
   }
   
-  // useEffect(() => {
-  //   const interval = setInterval(() => {
-  //     nextSlide();
-  //   }, 3000);
-  //   return () => clearInterval(interval);
-  // });
+  useEffect(() => {
+    const interval = setInterval(() => {
+      nextSlide();
+    }, 3000);
+    return () => clearInterval(interval);
+  });
 
   return (
     <>
 
       <div className={style.main}>
-        {Carsouel.map((item, i) => (
+        {Carsouel.map((item, index) => (
           <>
-            <div key={i} className={style.box}>
+            <div key={index} className={style.box}>
               {index === current && <img className={style.img} src={item.img} />}
               {index === current && <div className={style.quotes}><h5>{item.quotes}<h6>{item.Authors}</h6></h5> </div>}
             </div>
