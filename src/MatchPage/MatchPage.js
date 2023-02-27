@@ -21,11 +21,13 @@ function MatchPage() {
   return (
     <>
     <div className={style.NavBar}><NavBar/></div>
+    
     <div className={style.body}>
-    <h1 className={style.header}>Welcome to Cricket Live</h1>
+   
     {data.map((item,index)=>
    
    <div key={index} className={style.Card}>
+     <h1 className={style.header}>Welcome to Cricket Live</h1>
  <h3>Match ({item.matchType})</h3>
  <div className={style.innerCard}>
  <h3>{item.teams[0]}</h3>  <img className={style.img} src={item?.teamInfo[0]?.img} />

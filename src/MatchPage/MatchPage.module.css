@@ -1,6 +1,6 @@
 .Card{
     /* border: 1px red solid; */
-    margin-top: 4rem;
+    margin-top: 5rem;
     padding: 1rem 1rem 1rem 1rem;
     width: 45rem;
     row-gap: 1rem;
@@ -14,6 +14,9 @@
     font-family: Arial, Helvetica, sans-serif;
     opacity: 0.8;
     margin-left: 6rem;
+}
+.header{
+    display: none;
 }
 .icon{
     height: 6rem;
@@ -40,6 +43,7 @@
     grid-template-columns: 2fr 1fr;
     height: 100vh;
     justify-content: center;
+    align-items: center;
     align-items: center;
     background-size: cover;
     background-image: url("https://www.teahub.io/photos/full/27-275471_cricket-wallpaper-hd-wallpapers-download-free-images-cricket.jpg");
@@ -71,31 +75,17 @@
    /* border: 3px red solid;   */
    height: 100vh;
 }
-.header{
-    animation: rotateHue 2s alternate infinite;
-    outline: none;
-    color: red;
-    font-weight: 700;
-    font-size: 20px;
-    margin-top: -30rem;
-    margin-bottom: 5rem;
-}
 
-@keyframes rotateHue {
-    to{
-       filter: hue-rotate(1turn)
-    }
-  }
 @media (max-width:1255px){
     .rigthSection{
         display: none;
     }
-    .body{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-    }
+   .body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+   }
  }
  @media (max-width:765px){
     html{
@@ -123,5 +113,21 @@
         margin-right: 6rem;
          
     }
+    .header{
+        animation: rotateHue 2s alternate infinite;
+        outline: none;
+        color: red;
+        font-weight: 700;
+        font-size: 20px;
+        margin-top: -30rem;
+        margin-bottom: 5rem;
+    }
+    
+    @keyframes rotateHue {
+        to{
+           filter: hue-rotate(1turn)
+        }
+      }
+ 
 
  }

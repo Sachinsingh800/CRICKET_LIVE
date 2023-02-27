@@ -12,6 +12,17 @@ function NavBar() {
     <Link   className={style.link} to={"/"}><img className={style.logo} src={Image} />Cricket Live</Link>  
    <Link className={style.link} to="/">Home</Link>
    <Link className={style.link} to='/Podcast'>Podcast</Link>
+   <select className={style.button}>
+     <option>
+     <Link   className={style.link} to={"/"}><img className={style.logo} src={Image} />Cricket Live</Link>  
+     </option>
+     <option>
+     <Link className={style.link} to="/">Home</Link>
+     </option>
+     <option>
+      <Link className={style.link} to='/Podcast'>Podcast</Link>
+     </option>
+   </select>
  </div>     
       
   );

@@ -23,3 +23,24 @@
     z-index: 900;
 
   }
+  .button{
+    color: black;
+     height: 5rem;
+     background: transparent;
+     outline: none;
+     border: none;
+     display: none;
+  }
+  @media (max-width:412px){
+   .link{
+    display: none;
+   }
+   .button{
+    color: black;
+     height: 5rem;
+     background: transparent;
+     outline: none;
+     border: none;
+     display: unset;
+  }
+  }
