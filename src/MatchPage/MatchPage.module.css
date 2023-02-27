@@ -38,7 +38,7 @@
     /* border: 1px red solid; */
 }
 .body{
- 
+  /* border: 1px red solid; */
     display: grid;
     grid-template-columns: 2fr 1fr;
     height: 100vh;
@@ -108,19 +108,25 @@
         box-shadow: 1px 1px 10px 9px;
         font-family: Arial, Helvetica, sans-serif;
         opacity: 0.8;
-        font-size: 15px;
+        font-size: 12px;
         text-align: center;
         margin-right: 6rem;
          
     }
+    .img{
+        height: 8rem;
+        width: 8rem;
+    }
     .header{
+        display: unset;
         animation: rotateHue 2s alternate infinite;
         outline: none;
         color: red;
         font-weight: 700;
         font-size: 20px;
-        margin-top: -30rem;
-        margin-bottom: 5rem;
+        margin-top: -150rem;
+        position: absolute;
+        
     }
     
     @keyframes rotateHue {

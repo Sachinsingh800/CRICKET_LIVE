@@ -21,9 +21,7 @@ function MatchPage() {
   return (
     <>
     <div className={style.NavBar}><NavBar/></div>
-    
     <div className={style.body}>
-   
     {data.map((item,index)=>
    
    <div key={index} className={style.Card}>
