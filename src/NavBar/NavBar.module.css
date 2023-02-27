@@ -56,4 +56,13 @@
     font-size: small;
     display: unset;
   }
+  .main{
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    justify-content: space-evenly;
+    background-color: white;
+    opacity: 0.9;
+    z-index: 900;
+  }
   }
