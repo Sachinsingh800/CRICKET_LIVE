@@ -58,6 +58,8 @@
       font-size: 5px;
   }
   .quotes{
+    /* border: 1px red solid; */
+    margin-left: 3rem;
     font-size: 10px;
   }
 }

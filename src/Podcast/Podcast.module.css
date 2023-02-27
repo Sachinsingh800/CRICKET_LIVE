@@ -43,3 +43,21 @@
 .CarouselSlide{
     padding-top: 4rem;
 }
+@media (max-width:412px){
+    .PodcastBox{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      overflow-y: scroll;
+      row-gap: 2rem;
+      padding-top: 54rem;
+        width: 100vw;
+        margin-bottom: 3rem;
+        /* border: 1px red solid; */
+    }
+    .PodcastBox::-webkit-scrollbar{
+        display: none;
+    }
+}
