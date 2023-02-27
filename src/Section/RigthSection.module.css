@@ -7,6 +7,9 @@
 .NavBar{
     display: none;
 }
+.Footer{
+    display: none;
+}
 @media (max-width:412px){
     .container{
         /* border: 1px red solid; */
@@ -20,6 +23,9 @@
     .NavBar{
         display: unset;
         width: 100vw;
+    }
+    .Footer{
+        display: unset;
     }
 
 }
