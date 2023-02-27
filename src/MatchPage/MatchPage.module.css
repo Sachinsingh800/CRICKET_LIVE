@@ -71,6 +71,21 @@
    /* border: 3px red solid;   */
    height: 100vh;
 }
+.header{
+    animation: rotateHue 2s alternate infinite;
+    outline: none;
+    color: red;
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: -30rem;
+    margin-bottom: 5rem;
+}
+
+@keyframes rotateHue {
+    to{
+       filter: hue-rotate(1turn)
+    }
+  }
 @media (max-width:1255px){
     .rigthSection{
         display: none;
