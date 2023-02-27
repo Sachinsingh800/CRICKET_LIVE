@@ -2,7 +2,7 @@ import React from 'react'
 import Card from '../../Card/Card'
 import Footer from '../../Footer/Footer'
 import NavBar from '../../NavBar/NavBar'
-import RigthSection from '../../Section/RigthSection'
+import RigthSection from '../../Section/RightSection'
 import style from './HomePage.module.css'
 
 function HomePage() {

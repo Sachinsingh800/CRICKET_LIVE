@@ -3,7 +3,7 @@ import style from "./RigthSection.module.css"
 import { getNews } from '../Api/NewsApi'
 import NewsCard from '../NewsCard/NewsCard'
 
-function RigthSection() {
+function RightSection() {
  
   return (
     <>
@@ -16,4 +16,4 @@ function RigthSection() {
   )
 }
 
-export default RigthSection
+export default RightSection

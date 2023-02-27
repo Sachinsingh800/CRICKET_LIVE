@@ -5,7 +5,7 @@ import { matchData } from '../Recoil/Recoil'
 import style from "./MatchPage.module.css"
 import NavBar from '../NavBar/NavBar'
 import Image from "./vs.png"
-import RigthSection from '../Section/RigthSection'
+import RigthSection from '../Section/RightSection'
 
 function MatchPage() {
     const id=useParams()

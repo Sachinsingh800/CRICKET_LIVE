@@ -12,6 +12,7 @@ import MatchPage from './MatchPage/MatchPage';
 import { RecoilRoot } from 'recoil';
 import AboutPage from './Podcast/Podcast';
 import Blog from './Blog/Blog';
+import RightSection from './Section/RightSection';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 const router = createBrowserRouter([
@@ -34,6 +35,10 @@ const router = createBrowserRouter([
     {
       element: <Blog />,
       path: '/Blog',
+    },
+    {
+      element: <RightSection />,
+      path: '/RightSection',
     },
 
   ]);

@@ -13,7 +13,7 @@ function NewsCard() {
     const options = {
       method: 'GET',
       headers: {
-        'X-RapidAPI-Key': '5854509ae6msh4cf696e59631ad3p1669e1jsn997f958fe26d',
+        'X-RapidAPI-Key': '9a0882e407mshebedc2efa88237fp12ea50jsn41fcbc40fbbd',
         'X-RapidAPI-Host': 'cricbuzz-cricket.p.rapidapi.com'
       }
     };
@@ -22,7 +22,6 @@ function NewsCard() {
       .then(response => response.json())
       .then(response => setNews(response.storyList))
       .catch(err => console.error(err));
-   
   }, []);
  
 

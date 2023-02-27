@@ -4,3 +4,15 @@
     flex-direction: column;
     align-items: center;  
 }
+@media (max-width:412px){
+    .container{
+        /* border: 1px red solid; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;  
+        background-size: cover;
+        background-image: url("https://www.teahub.io/photos/full/27-275471_cricket-wallpaper-hd-wallpapers-download-free-images-cricket.jpg");
+        height: 100vh;
+    }
+
+}
