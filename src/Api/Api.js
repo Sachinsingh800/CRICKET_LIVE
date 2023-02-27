@@ -1,8 +1,8 @@
-const  API_KEY="1c2bb373-0fb7-4d92-b019-18a6b2c762fa"
+const  API_KEY="d0b88f9e-e812-4e89-a36f-b07bfb63f530"
 
 export const getMatches=()=>{
 
-    const url=`https://api.cricapi.com/v1/currentMatches?apikey=1c2bb373-0fb7-4d92-b019-18a6b2c762fa&offset=0?apikey=${ API_KEY}`
+    const url=`https://api.cricapi.com/v1/currentMatches?apikey=d0b88f9e-e812-4e89-a36f-b07bfb63f530&offset=0?apikey=${ API_KEY}`
     return fetch(url)
     .then((response)=>response.json())
     .catch((error)=>console.log("Error :" , error))
