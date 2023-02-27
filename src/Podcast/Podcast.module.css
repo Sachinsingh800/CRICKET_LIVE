@@ -43,7 +43,7 @@
 .CarouselSlide{
     padding-top: 4rem;
 }
-@media (max-width:412px){
+@media (max-width:500px){
     .PodcastBox{
         width: 100vw;
         display: flex;
