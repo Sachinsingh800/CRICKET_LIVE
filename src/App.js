@@ -1,4 +1,3 @@
-import  style from './App.module.css';
 import HomePage from './Component/HomePage/HomePage';
 
 

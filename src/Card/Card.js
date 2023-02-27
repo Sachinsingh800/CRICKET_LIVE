@@ -36,7 +36,7 @@ function Card() {
       <h6 className={style.date}>({item?.date})</h6>
       <div className={style.innerCard}>
       <h3>{item?.teams[0]} </h3> <img className={style.img} src={item?.teamInfo[0]?.img} />
-        <img src={Image} className={style.icon} /> 
+        <img src={Image} className={style.icon}  alt="image"/> 
         <h3>{item?.teams[1]}</h3>  <img className={style.img} src={item?.teamInfo[1]?.img} />
         </div>
         <div>
