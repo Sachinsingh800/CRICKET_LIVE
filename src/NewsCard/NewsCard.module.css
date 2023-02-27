@@ -25,6 +25,9 @@
     border-radius: 5px;
   
 }
+.title{
+    width: 20rem;
+}
 .searchbox{
     width: 26rem;
     padding: 0.5rem  1rem  0.5rem  1rem;
@@ -62,5 +65,15 @@ h6{
     }
     .searchbox{
         width: 55rem;
+    }
+    .img{
+        height: 20rem;
+        aspect-ratio: 2/1;
+        border-radius: 5px;
+      
+    }
+    .title{
+        width: 42rem;
+        font-size: 15px;
     }
 }

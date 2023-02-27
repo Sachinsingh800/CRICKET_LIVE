@@ -6,7 +6,3 @@ export const matchData = atom({
     default:[],
   })
   
-export const searchData = atom({
-    key:"Search",
-    default:[],
-  })
