@@ -58,23 +58,23 @@ h6{
 }
 @media (max-width:412px){
     .container{
-        width: 55rem;
+        width: 65rem;
     }
     .main{
-        width: 60rem;
+        width: 66rem;
         height: 100vh;
     }
     .searchbox{
-        width: 55rem;
+        width: 65rem;
     }
     .img{
-        height: 20rem;
+        height: 30rem;
         aspect-ratio: 2/1;
         border-radius: 5px;
       
     }
     .title{
-        width: 42rem;
+        width: 60rem;
         font-size: 15px;
     }
 }
