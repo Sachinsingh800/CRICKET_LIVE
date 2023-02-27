@@ -78,3 +78,25 @@ h6{
         font-size: 15px;
     }
 }
+@media (max-width:1255px){
+    .container{
+        width: 65rem;
+    }
+    .main{
+        width: 66rem;
+        height: 100vh;
+    }
+    .searchbox{
+        width: 65rem;
+    }
+    .img{
+        height: 30rem;
+        aspect-ratio: 2/1;
+        border-radius: 5px;
+      
+    }
+    .title{
+        width: 60rem;
+        font-size: 15px;
+    }
+}

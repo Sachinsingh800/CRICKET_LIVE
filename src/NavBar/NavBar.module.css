@@ -66,3 +66,30 @@
     z-index: 900;
   }
   }
+  @media (max-width:1255px){
+    .link{
+      font-size: small;
+    }
+    .button{
+     color: black;
+      height: 5rem;
+      background: transparent;
+      outline: none;
+      border: none;
+      display: unset;
+   }
+   .link1{
+     font-size: small;
+     display: unset;
+   }
+   .main{
+     display: flex;
+     align-items: center;
+     padding: 1rem;
+     justify-content: space-evenly;
+     background-color: white;
+     opacity: 0.9;
+     z-index: 900;
+   }
+   }
+  
