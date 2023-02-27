@@ -48,11 +48,13 @@
         width: 100vw;
         margin-bottom: 3rem;
         margin-left: 0rem;
-        padding-left: 1rem;
+        /* border: 1px red solid; */
+        padding-left: 4rem;
     }
     .container{
         width: 100vw;
         background-size: cover;
         background-image: url("https://www.teahub.io/photos/full/27-275471_cricket-wallpaper-hd-wallpapers-download-free-images-cricket.jpg");
     }
+  
 }
