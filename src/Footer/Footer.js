@@ -21,7 +21,7 @@ export default function Footer() {
 <div className={style.icon}>
 
 <h4>Mobile  and Apps</h4>
-  <Link className={style.link} to="https://www.facebook.com/"><AiOutlineGlobal/><span className={style.name} >Cricket.com</span> </Link>
+  <Link className={style.link} to="https://www.facebook.com/"><AiOutlineGlobal/><span className={style.name} >Cricket-Live.com</span> </Link>
 
 
 <Link className={style.link}  to="https://www.instagram.com/"><AiFillAndroid/><span className={style.name} >Android</span></Link>
