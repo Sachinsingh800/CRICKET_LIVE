@@ -1,70 +1,17 @@
-# Getting Started with Create React App
+#CRICKET-LIVE
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Git-Link ⇒https://github.com/Sachinsingh800/CRICKET_LIVE.git
+Deploy Link⇒  https://cricket-lives.netlify.app/
+Deploy Link ⇒ https://cricket-lives.vercel.app/Project 
+Api Link ⇒ https://api.cricapi.com/v1/currentMatches?apikey=4720d6cd-e8d3-4ece-97bd-ee1a1fb269aa&offset=0
 
-## Available Scripts
 
-In the project directory, you can run:
+Project Overview ⇒ 
 
-### `npm start`
+=> My website is platform that provide live scores for cricket matches.it is     design to keep cricket enthusiast updated with the latest scores, as well as other important detail about the match such as the team playing , the venue , and the status of the game.It is fully responvise , So that we can run it on any device.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+=>User can access the live score card of on going matches,including details such as runs scored , wickets taken , and overs bowled.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+=>In addition to live scores , the website also offer news and updates on cricket matches, player,and teams.
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+=>Overall, this cricket live website serves as a one-stop platform for cricket enthusiasts to up-to-date with the latest scores and news in the  world of cricket. 
