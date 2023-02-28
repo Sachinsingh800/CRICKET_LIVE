@@ -2,14 +2,12 @@
     padding:1rem 1rem 1rem 4rem ;
     font-size: x-large;
     row-gap: 1rem;
-    /* border: 1px red solid; */
     display: flex;
     flex-direction: column;
     width: 20rem;
  
 }
 .main{
-    /* border: 1px red solid; */
     display: flex;
     justify-content: space-between;
     background-color: rgb(231, 227, 223);
@@ -48,11 +46,10 @@
     padding:3rem 1rem 3rem 5rem ;
     font-size: x-large;
     row-gap: 1rem;
-    /* border: 1px red solid; */
     display: flex;
     flex-direction: column;
     width: 100vw;
-    /* align-items: center; */
+  
  
 }
 .FisrtDiv{

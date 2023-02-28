@@ -10,7 +10,7 @@ import { useRecoilState } from 'recoil'
 function Card() {
   const [data,setData] = useRecoilState(matchData)
   const [sortOrder, setSortOrder] = useState('asc');
-// console.log(data)
+
 
     useEffect(()=>{
         getMatches().then((data)=> setData(data.data)

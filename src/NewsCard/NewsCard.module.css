@@ -1,5 +1,4 @@
 .container{
-    /* border: 1px red solid; */
     width: 25rem;
     padding: 1rem ;
     margin-top: 1.5rem;
@@ -42,7 +41,6 @@ h6{
     z-index: 900;
 }
 .main{
-    /* border: 2px red solid; */
     height: 79vh;
     scroll-behavior: smooth;
     overflow-y: scroll;
@@ -82,7 +80,6 @@ h6{
 @media (max-width:1255px){
     .container{
         width: 40rem;
-        /* border: 1px red solid; */
         margin-top: 6rem;
     }
     .main{

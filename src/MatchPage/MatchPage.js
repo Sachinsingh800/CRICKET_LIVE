@@ -11,13 +11,13 @@ function MatchPage() {
     const id=useParams()
    
     const [match,setMatch] =useRecoilState(matchData)
-   console.log(match)
+  
 
     const data= match.filter((item)=>{
       return id.id==item.id
     
     })
-    console.log(data)
+  
   return (
     <>
     <div className={style.NavBar}><NavBar/></div>

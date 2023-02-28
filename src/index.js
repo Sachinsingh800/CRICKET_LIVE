@@ -11,7 +11,6 @@ import Card from './Card/Card';
 import MatchPage from './MatchPage/MatchPage';
 import { RecoilRoot } from 'recoil';
 import AboutPage from './Podcast/Podcast';
-import Blog from './Blog/Blog';
 import RightSection from './Section/RightSection';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -31,10 +30,6 @@ const router = createBrowserRouter([
     {
       element: <AboutPage />,
       path: '/Podcast',
-    },
-    {
-      element: <Blog />,
-      path: '/Blog',
     },
     {
       element: <RightSection />,

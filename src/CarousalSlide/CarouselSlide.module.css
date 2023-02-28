@@ -6,7 +6,6 @@
   align-items: center;
   justify-content: center;
   border-radius: 2px;
-  /* border: 2px red solid; */
 }
 .main::-webkit-scrollbar {
   display: none;
@@ -25,7 +24,6 @@
 }
 
 .btnBox {
-  /* border: 2px green solid; */
   display: flex;
   justify-content: space-between;
   margin: 3rem;
@@ -36,7 +34,6 @@
   opacity: 0.8;
 }
 .quotes {
-  /* border: 1px red solid; */
   width: 50rem;
   height: 20.8rem;
   display: flex;
@@ -44,7 +41,6 @@
   justify-content: center;
   z-index: 90;
   position: absolute;
-  /* background-color: red; */
   font-size: 40px;
   color: white;
 }
@@ -58,7 +54,6 @@
       font-size: 5px;
   }
   .quotes{
-    /* border: 1px red solid; */
     margin-left: 3rem;
     font-size: 10px;
   }
