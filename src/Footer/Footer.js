@@ -24,9 +24,9 @@ export default function Footer() {
   <Link className={style.link} to="https://www.facebook.com/"><AiOutlineGlobal/><span className={style.name} >Cricket.com</span> </Link>
 
 
-<Link className={style.link}  to="https://www.instagram.com/"><AiFillAndroid/><span className={style.name} >instagram</span></Link>
+<Link className={style.link}  to="https://www.instagram.com/"><AiFillAndroid/><span className={style.name} >Android</span></Link>
 
-<Link className={style.link}  to="https://www.twitter.com/"><AiFillApple/><span className={style.name} >twitter</span></Link>
+<Link className={style.link}  to="https://www.twitter.com/"><AiFillApple/><span className={style.name} >IOS</span></Link>
 
 </div> 
 
